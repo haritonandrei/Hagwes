@@ -1,0 +1,58 @@
+* { font-family: roboto, calibri, arial; }
+
+body {
+	background-color: rgba(230,230,230,1);
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	max-width: 860px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}
+
+#container p , #file-download a { padding: 10px; background-color: #eeb556; }
+#container p:hover, #file-download a:hover { background-color: #ffc667; }
+
+#container p  a, #file-download a { color: white; text-decoration: none; }
+#container p  a:hover { color: red; }
+
+#file-content { overflow: auto; }
+#file-content-multimedia audio { width: 100%; }
+
+#file-download { width: 100%; text-align: center; }
+
+textarea, img, #file-content-multimedia, #file-download {
+	max-width: 860px;
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+video {
+	width: 100%;
+}
+
+textarea {
+	white-space: pre;
+	font-family: courier new, roboto, calibri;
+	font-size: 18px;
+}
+
+input.url { width: 87%; }
+input.url:hover { color: red; }
+
+input.url-btn { width: 10%; border: 1px solid black; }
+input.url-btn:hover { cursor: pointer; color: red; }
+
+textarea, img, input.url {
+	border: 1px solid black;
+	padding: 1px;
+}
+
+div#footer { font-variant: small-caps; font-size: 14px; }
+div#footer:hover:after { content: ' MIT license (opensource.org/licenses/MIT).'; }
