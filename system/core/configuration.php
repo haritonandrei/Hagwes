@@ -10,8 +10,8 @@
 
 // SERVER - DATABASE
 	
-$database_name	= "hws_db";
-$tables_prefix	= "hws_";
+$database_name	= "my_hws_db";
+$tables_prefix	= "it_blog_";
 
 // SERVER - HOST
 

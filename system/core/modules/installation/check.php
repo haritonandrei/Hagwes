@@ -23,7 +23,7 @@ if ($conn->connect_error)
 $sql	= "SELECT username, password FROM ".$tables_prefix."users";
 $result	= $conn->query($sql);
 
-if ($result->num_rows > 0)
+if ($result && $result->num_rows > 0)
 {
 	while($row = $result->fetch_assoc())
 	{
