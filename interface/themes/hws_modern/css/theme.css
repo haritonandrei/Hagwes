@@ -155,6 +155,7 @@ h5 {
 }
 ul {
 	list-style-type: circle;
+	margin-left: 18px;
 }
 a {
 	color: black;
