@@ -9,7 +9,7 @@
 **/
 
 $theme_name		= "HWS Hagik Indigo";
-$theme_version 	= "1.0.0";
+$theme_version 	= "1.0.1";
 $theme_author	= "Hariton Andrei Marius";
 $theme_license	= "Proprietary/closed";
 $theme_template	= "hws";

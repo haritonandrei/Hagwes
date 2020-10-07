@@ -9,7 +9,7 @@
 **/
 
 $theme_name		= "HWS Orange";
-$theme_version 	= "1.1.0";
+$theme_version 	= "1.1.1";
 $theme_author	= "Hariton Andrei Marius";
 $theme_license	= "Proprietary/closed";
 $theme_template	= "hws";
