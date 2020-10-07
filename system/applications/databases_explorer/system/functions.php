@@ -4,8 +4,8 @@
  * Functions.
  *
  * @author     Hariton Andrei Marius <andreimariushariton@gmail.com>
- * @copyright  2016-2017 Hariton Andrei Marius
- * @license    http://opensource.org/licenses/mit-license.php  MIT license
+ * @copyright  2016-2020 Hariton Andrei Marius
+ * @license    Proprietary/closed
 **/
 
 function get_databases_array($servername, $username, $password, $dbname, $tables_prefix)

@@ -3,9 +3,9 @@
 /**
  * Contains functions used for the right working of the CMS.
  *
- * @author     Hariton Andrei Marius <haritonandreimarius@icloud.com>
- * @copyright  2016-2017 Hariton Andrei Marius
- * @license    http://opensource.org/licenses/mit-license.php  MIT license
+ * @author     Hariton Andrei Marius <andreimariushariton@gmail.com>
+ * @copyright  2016-2020 Hariton Andrei Marius
+ * @license    Proprietary/closed
 **/
 
 /**

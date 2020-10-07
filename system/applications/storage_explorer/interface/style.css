@@ -55,4 +55,4 @@ textarea, img, input.url {
 }
 
 div#footer { font-variant: small-caps; font-size: 14px; }
-div#footer:hover:after { content: ' MIT license (opensource.org/licenses/MIT).'; }
+div#footer:hover:after { content: ' License Proprietary/Closed.'; }

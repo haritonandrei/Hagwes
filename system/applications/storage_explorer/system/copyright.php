@@ -4,8 +4,8 @@
  * Copyright file.
  *
  * @author     Hariton Andrei Marius <andreimariushariton@gmail.com>
- * @copyright  2016-2017 Hariton Andrei Marius
- * @license    http://opensource.org/licenses/mit-license.php  MIT license
+ * @copyright  2016-2020 Hariton Andrei Marius
+ * @license    Proprietary/closed
 **/
 
 $current_year = Date("Y");

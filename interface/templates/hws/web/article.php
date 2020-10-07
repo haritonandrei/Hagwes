@@ -5,7 +5,7 @@
  *
  * @author     Hariton Andrei Marius <andreimariushariton@gmail.com>
  * @copyright  2016-2017 Hariton Andrei Marius
- * @license    http://opensource.org/licenses/mit-license.php  MIT license
+ * @license    Proprietary/closed
 **/
 
 ?>
@@ -41,7 +41,7 @@
 					}
 				}
 				
-				echo('<li><a href="../administration/index.php">Administration</a></li>');
+				echo('<li><a href="../administration/index.php">Login</a></li>');
 				echo('<li><a href="search.php">Search</a></li>');
 				
 				?>
