@@ -12,7 +12,7 @@ $app_name		= "Directories Explorer";
 $app_version 	= "1.1.0";
 $app_type		= "Essential";
 $app_author		= "Hariton Andrei Marius";
-$app_license	= "MIT license";
+$app_license	= "Proprietary/closed";
 
 $app_visibility = array
 (

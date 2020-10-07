@@ -12,7 +12,7 @@ $app_name		= "Storage Explorer";
 $app_version 	= "1.1.0";
 $app_type		= "Utility";
 $app_author		= "Hariton Andrei Marius";
-$app_license	= "MIT license";
+$app_license	= "Proprietary/closed";
 
 $app_templates	= array("-");
 

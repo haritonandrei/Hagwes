@@ -12,7 +12,7 @@ $app_name		= "Templates Manager";
 $app_version 	= "1.0.0";
 $app_type		= "Essential";
 $app_author		= "Hariton Andrei Marius";
-$app_license	= "MIT license";
+$app_license	= "Proprietary/closed";
 
 $app_templates	= array("hws");
 
