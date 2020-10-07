@@ -102,7 +102,7 @@
 				{
 					echo(
 						"<h3>".$article->getTitle()."</h3>
-						&#10070; <a href=\"category.php?name=".$article->getCategory()."\">".$article->getCategory()."</a>&nbsp;
+						&#10070; <a class=\"link\" href=\"category.php?name=".$article->getCategory()."\">".$article->getCategory()."</a>&nbsp;
 						&#9998; ".$article->getAuthor()."&nbsp;
 						&#9728; ".date("l jS F Y", strtotime($article -> getLastModify()))."<br>
 						<blockquote>".$article->getDescription()."</blockquote>
