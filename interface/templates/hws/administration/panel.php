@@ -84,7 +84,7 @@
 							<td>'.$app_name.'</td>
 							<td>'.$app_type.'</td>
 							<td class="hidden-on-mobile">'.$app_version.'</td>
-							<td><a href="../system/applications/'.$application.'/">Open</a></td>
+							<td><a class="link" href="../system/applications/'.$application.'/">Open</a></td>
 						</tr>
 						');
 					}
