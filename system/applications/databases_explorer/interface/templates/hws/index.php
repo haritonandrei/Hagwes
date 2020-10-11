@@ -55,7 +55,7 @@
 					echo(
 						"<tr>
 							<td>".$database."</td>
-							<td><a href=\"see_database_tables.php?database=".$database."\">See tables</a></td>
+							<td><a href=\"see_database_tables.php?database=".$database."\" class=\"link\">See tables</a></td>
 						</tr>"
 					);
 				}

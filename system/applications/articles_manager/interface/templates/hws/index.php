@@ -64,8 +64,8 @@
 							<td class="hidden-on-mobile">'.$article -> getCategory().'</td>
 							<td>'.$article -> getAuthor().'</td>
 							<td class="hidden-on-mobile">'.$article -> getLastModify().'</td>
-							<td><a href="edit.php?id='.$article -> getIdentifier().'">Edit</a></td>
-							<td><a href="remove.php?id='.$article -> getIdentifier().'">Remove</a></td>
+							<td><a href="edit.php?id='.$article -> getIdentifier().'" class="link">Edit</a></td>
+							<td><a href="remove.php?id='.$article -> getIdentifier().'" class="link">Remove</a></td>
 						</tr>'
 					);
 				}

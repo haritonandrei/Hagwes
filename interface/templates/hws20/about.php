@@ -8,8 +8,8 @@
  * @license    Proprietary/closed
 **/
 
-$template_name		= "HWS";
-$template_version	= "1.0.1";
+$template_name		= "HWS20";
+$template_version	= "1.0.0";
 $template_author	= "Hariton Andrei Marius";
 $template_license	= "Proprietary/closed";
 

@@ -71,7 +71,7 @@
 						<td class="hidden-on-mobile">'.$theme_license.'</td>
 						<td>'.$theme_size.' bytes</td>
 						<td class="hidden-on-mobile">'.$theme_template.'</td>
-						<td><a href="disinstall.php?name='.$theme.'">Disinstall</a></td>
+						<td><a href="disinstall.php?name='.$theme.'" class="link">Disinstall</a></td>
 						</tr>'
 					);
 				}

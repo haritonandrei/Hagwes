@@ -9,7 +9,7 @@
 **/
 
 $app_name		= "Databases Explorer";
-$app_version 	= "1.1.0";
+$app_version 	= "1.1.1";
 $app_type		= "Utility";
 $app_author		= "Hariton Andrei Marius";
 $app_license	= "Proprietary/closed";

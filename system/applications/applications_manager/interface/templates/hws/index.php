@@ -73,7 +73,7 @@
 							<td class="hidden-on-mobile">'.$app_license.'</td>
 							<td>'.$application_size.' bytes</td>
 							<td class="hidden-on-mobile">'.$application_templates.'</td>
-							<td><a href="disinstall.php?name='.$application.'">Disinstall</a></td>
+							<td><a href="disinstall.php?name='.$application.'" class="link">Disinstall</a></td>
 						</tr>'
 					);
 				}

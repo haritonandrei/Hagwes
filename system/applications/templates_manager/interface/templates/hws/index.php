@@ -71,7 +71,7 @@
 						<td class="hidden-on-mobile">'.$template_license.'</td>
 						<td>'.$template_size.' bytes</td>
 						<td class="hidden-on-mobile">'.$template_author.'</td>
-						<td><a href="disinstall.php?name='.$template.'">Disinstall</a></td>
+						<td><a href="disinstall.php?name='.$template.'" class="link">Disinstall</a></td>
 						</tr>'
 					);
 				}

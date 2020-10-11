@@ -64,8 +64,8 @@
 							<td class="hidden-on-mobile">'.$user->getUserType().'</td>
 							<td>'.$user->getEmail().'</td>
 							<td class="hidden-on-mobile">'.$user->getLastModify().'</td>
-							<td><a href="edit.php?id='.$user->getIdentifier().'">Edit</a></td>
-							<td><a href="remove.php?id='.$user->getIdentifier().'&username='.$user->getUsername().'">Remove</a></td>
+							<td><a href="edit.php?id='.$user->getIdentifier().'" class="link">Edit</a></td>
+							<td><a href="remove.php?id='.$user->getIdentifier().'&username='.$user->getUsername().'" class="link">Remove</a></td>
 						</tr>'
 					);
 				}

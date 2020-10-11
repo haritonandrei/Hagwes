@@ -21,12 +21,12 @@ $password		= "";
 
 // SYSTEM - INTERFACE
 
-$template_web				= "hws";
-$template_administration	= "hws";
-$template_applications		= "hws";
-$theme_web					= "hws_modern_blue";
-$theme_administration		= "hws_modern_blue";
-$theme_applications			= "hws_modern_blue";
+$template_web				= "hws20";
+$template_administration	= "hws20";
+$template_applications		= "hws20";
+$theme_web					= "hws20_blue";
+$theme_administration		= "hws20_blue";
+$theme_applications			= "hws20_blue";
 $website_name				= "Hagwes";
 $website_description		= "Lightweight, secure, smart.";
 $copyright					= "© 2016-".date("Y")." by Hariton Andrei Marius.";

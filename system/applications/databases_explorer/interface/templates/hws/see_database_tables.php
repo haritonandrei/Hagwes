@@ -57,8 +57,8 @@
 					echo(
 						"<tr>
 							<td>".$table."</td>
-							<td><a href=\"see_table_records.php?database=".$_GET['database']."&&table=".$table."\">See records</a></td>
-							<td><a href=\"see_table_structure.php?database=".$_GET['database']."&&table=".$table."\">See structure</a></td>
+							<td><a href=\"see_table_records.php?database=".$_GET['database']."&&table=".$table."\" class=\"link\">See records</a></td>
+							<td><a href=\"see_table_structure.php?database=".$_GET['database']."&&table=".$table."\" class=\"link\">See structure</a></td>
 						</tr>"
 					);
 				}

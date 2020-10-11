@@ -8,10 +8,10 @@
  * @license    Proprietary/closed
 **/
 
-$theme_name		= "HWS Modern Blue";
-$theme_version 	= "1.0.1";
+$theme_name		= "HWS20 Blue";
+$theme_version 	= "1.0.0";
 $theme_author	= "Hariton Andrei Marius";
 $theme_license	= "Proprietary/closed";
-$theme_template	= "hws";
+$theme_template	= "hws20";
 
 ?>
