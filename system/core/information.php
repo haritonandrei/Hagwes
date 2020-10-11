@@ -9,8 +9,8 @@
 **/
 
 $name		= "Hagwes";
-$version 	= "1.2.2"; // release.improvements.bugs_solved
-$build		= "1002";
+$version 	= "1.3.2"; // release.improvements.bugs_solved
+$build		= "1004";
 $author		= "Hariton Andrei Marius";
 $license	= "Proprietary/closed";
 

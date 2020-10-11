@@ -566,5 +566,5 @@ function get_site_url()
 		$protocol = $protocol . "s";
 	}
 
-	return $protocol . "://" . $_SERVER['HTTP_HOST'];
+	return encrypt_string($protocol . "://" . $_SERVER['HTTP_HOST']);
 }
