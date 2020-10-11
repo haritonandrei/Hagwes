@@ -36,7 +36,7 @@ $copyright					= "© 2016-".date("Y")." by Hariton Andrei Marius.";
 $allow_guests_registration	= FALSE;
 $index_page_enabled			= FALSE;
 $pages_menu_enabled			= TRUE;
-$list_max_size				= 5;		// into a page
+$list_max_size				= 10;		// into a page
 $cookie_expire_seconds		= 1800;		// 86400 - 1 day, 3600 - 1 hour.
 
 // SYSTEM - UPGRADES
