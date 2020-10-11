@@ -43,6 +43,8 @@ if(!$isAuthenticated)
 				setcookie($website_name."-password",		encrypt_string($_POST['password']), time() + $cookie_expire_seconds, "/");
 				setcookie($website_name."-user-type",		$user->getUserType(),				time() + $cookie_expire_seconds, "/");
 				setcookie($website_name."-user-displayname",$user->getDisplayname(),			time() + $cookie_expire_seconds, "/");
+				setcookie($website_name."-site-url",		get_site_url(),						time() + $cookie_expire_seconds, "/");
+				
 				header("location: panel.php");
 			}
 		}

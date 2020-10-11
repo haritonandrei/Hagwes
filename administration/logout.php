@@ -14,6 +14,7 @@ setcookie($website_name."-username",			"",	time()-$cookie_expire_seconds,	"/");
 setcookie($website_name."-password",			"",	time()-$cookie_expire_seconds,	"/");
 setcookie($website_name."-user-type",			"",	time()-$cookie_expire_seconds,	"/");
 setcookie($website_name."-user-displayname",	"",	time()-$cookie_expire_seconds,	"/");
+setcookie($website_name."-site-url",	        "",	time()-$cookie_expire_seconds,	"/");
 
 header('location: ../index.php');
 
