@@ -9,10 +9,12 @@
 **/
 
 $app_name		= "Directories Explorer";
-$app_version 	= "1.1.0";
+$app_version 	= "1.2.0";
 $app_type		= "Essential";
 $app_author		= "Hariton Andrei Marius";
 $app_license	= "Proprietary/closed";
+
+$app_templates	= array("hws", "hws20");
 
 $app_visibility = array
 (
