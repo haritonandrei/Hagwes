@@ -164,6 +164,7 @@ function get_users($server_name, $username, $password, $database_name, $tables_p
 			$user->setBirthdate($row['birthdate']);
 			$user->setEmail($row['email']);
 			$user->setUrl($row['url']);
+			$user->setDate($row['date']);
 			$user->setLastModify($row['last_modify']);
 
 			// Informations
@@ -211,6 +212,7 @@ function get_pages($server_name, $username, $password, $database_name, $tables_p
 	" . $tables_prefix . "users.displayname AS 'author',
 	" . $tables_prefix . "pages.title,
 	" . $tables_prefix . "pages.content,
+	" . $tables_prefix . "pages.date,
 	" . $tables_prefix . "pages.last_modify
 
 	FROM " . $tables_prefix . "pages LEFT JOIN " . $tables_prefix . "users
@@ -228,6 +230,7 @@ function get_pages($server_name, $username, $password, $database_name, $tables_p
 			$page->setAuthor($row['author']);
 			$page->setTitle($row['title']);
 			$page->setContent($row['content']);
+			$page->setDate($row['date']);
 			$page->setLastModify($row['last_modify']);
 
 			// Informations
@@ -277,6 +280,7 @@ function get_articles($server_name, $username, $password, $database_name, $table
 	" . $tables_prefix . "users.displayname AS 'author',
 	" . $tables_prefix . "articles.description,
 	" . $tables_prefix . "articles.content,
+	" . $tables_prefix . "articles.date,
 	" . $tables_prefix . "articles.last_modify
 
 	FROM " . $tables_prefix . "articles LEFT JOIN " . $tables_prefix . "users
@@ -296,6 +300,7 @@ function get_articles($server_name, $username, $password, $database_name, $table
 			$article->setAuthor($row['author']);
 			$article->setDescription($row['description']);
 			$article->setContent($row['content']);
+			$article->setDate($row['date']);
 			$article->setLastModify($row['last_modify']);
 
 			// Informations
@@ -347,6 +352,7 @@ function get_articles_limited_list($articles_list_start_from, $articles_list_max
 	" . $tables_prefix . "users.displayname AS 'author',
 	" . $tables_prefix . "articles.description,
 	" . $tables_prefix . "articles.content,
+	" . $tables_prefix . "articles.date,
 	" . $tables_prefix . "articles.last_modify
 
 	FROM " . $tables_prefix . "articles LEFT JOIN " . $tables_prefix . "users
@@ -370,6 +376,7 @@ function get_articles_limited_list($articles_list_start_from, $articles_list_max
 				$article->setAuthor($row['author']);
 				$article->setDescription($row['description']);
 				$article->setContent($row['content']);
+				$article->setDate($row['date']);
 				$article->setLastModify($row['last_modify']);
 
 				// Informations
@@ -427,6 +434,7 @@ function get_category_articles_limited_list($category, $articles_list_start_from
 	" . $tables_prefix . "users.displayname AS 'author',
 	" . $tables_prefix . "articles.description,
 	" . $tables_prefix . "articles.content,
+	" . $tables_prefix . "articles.date,
 	" . $tables_prefix . "articles.last_modify
 
 	FROM " . $tables_prefix . "articles LEFT JOIN " . $tables_prefix . "users
@@ -451,6 +459,7 @@ function get_category_articles_limited_list($category, $articles_list_start_from
 				$article->setAuthor($row['author']);
 				$article->setDescription($row['description']);
 				$article->setContent($row['content']);
+				$article->setDate($row['date']);
 				$article->setLastModify($row['last_modify']);
 
 				// Informations
@@ -508,6 +517,7 @@ function get_search_articles_limited_list($search, $articles_list_start_from, $a
 	" . $tables_prefix . "users.displayname AS 'author',
 	" . $tables_prefix . "articles.description,
 	" . $tables_prefix . "articles.content,
+	" . $tables_prefix . "articles.date,
 	" . $tables_prefix . "articles.last_modify
 
 	FROM " . $tables_prefix . "articles LEFT JOIN " . $tables_prefix . "users
@@ -532,6 +542,7 @@ function get_search_articles_limited_list($search, $articles_list_start_from, $a
 				$article->setAuthor($row['author']);
 				$article->setDescription($row['description']);
 				$article->setContent($row['content']);
+				$article->setDate($row['date']);
 				$article->setLastModify($row['last_modify']);
 
 				// Informations
