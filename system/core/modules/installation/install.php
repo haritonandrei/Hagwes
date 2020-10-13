@@ -121,14 +121,26 @@ $sql = "INSERT INTO ".$tables_prefix."articles (
 
 $conn->query($sql);
 
-// FIRST PAGE -----------------------------------------------------------
+// FIRST PAGES -----------------------------------------------------------
 
 $sql = "INSERT INTO ".$tables_prefix."pages (
 	title,
 	author,
 	content
 ) VALUES (
-	'Page',
+	'About',
+	'1',
+	'Content'
+)";
+
+$conn->query($sql);
+
+$sql = "INSERT INTO ".$tables_prefix."pages (
+	title,
+	author,
+	content
+) VALUES (
+	'Categories',
 	'1',
 	'Content'
 )";

@@ -33,8 +33,8 @@
 		<section>
 			<a id="logo-container" href="index.php"><?php echo($website_name); ?></a>
 			<ul class="nav-menu">
-				<li><a href="../index.php">Web</a></li>
-				<li><a href="logout.php">Logout</a></li>
+				<li><a href="../index.php" class="menu-text">Web</a></li>
+				<li><a href="logout.php" class="menu-text">Logout</a></li>
 			</ul>
 		</section>
 	</nav>

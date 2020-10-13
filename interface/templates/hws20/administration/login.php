@@ -33,7 +33,7 @@
 		<section>
 			<a id="logo-container" href="index.php"><?php echo($website_name); ?></a>
 			<ul class="nav-menu">
-				<li><a href="../index.php">Web</a></li>
+				<li><a href="../index.php" class="menu-icon"><img src="../interface/templates/<?php echo($template_administration); ?>/images/icons/web.png" title="Web" /></a></li>
 			</ul>
 		</section>
 	</nav>

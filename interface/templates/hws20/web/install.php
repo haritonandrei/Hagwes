@@ -33,7 +33,7 @@
 		<section>
 			<a id="logo-container" href="index.php"><?php echo($website_name); ?></a>
 			<ul class="nav-menu">
-				<li><a href="../administration/index.php">Install</a></li>
+				<li><a href="../administration/index.php" class="menu-text">Install</a></li>
 			</ul>
 		</section>
 	</nav>

@@ -52,12 +52,12 @@
 				{
 					foreach($pages as $actual_page)
 					{
-						echo('<li><a href="page.php?id='.$actual_page->getIdentifier().'">'.$actual_page->getTitle().'</a></li>');
+						echo('<li><a class="menu-text" href="page.php?id='.$actual_page->getIdentifier().'">'.$actual_page->getTitle().'</a></li>');
 					}
 				}
 				
-				echo('<li><a href="../administration/index.php">Login</a></li>');
-				echo('<li><a href="search.php">Search</a></li>');
+				echo('<li><a class="menu-text" href="../administration/index.php">Login</a></li>');
+				echo('<li><a class="menu-text" href="search.php">Search</a></li>');
 				
 				?>
 			</ul>
