@@ -15,6 +15,7 @@ class Page
 	private $author;
 	private $title;
 	private $content;
+	private $date;
 	private $last_modify;
 	
 	// Constructor
@@ -24,6 +25,7 @@ class Page
 		$this->author		= "";
 		$this->title 		= "";
 		$this->content		= "";
+		$this->date			= "";
 		$this->last_modify	= "";
 	}
 	
@@ -70,6 +72,16 @@ class Page
 	public function getContent()
 	{
 		return $this->content;
+	}
+
+	/**
+	 * Getter for the date.
+	 *
+	 * @return string The date of the page 
+	**/
+	public function getDate()
+	{
+		return $this->date;
 	}
 	
 	/**
@@ -121,6 +133,16 @@ class Page
 	{
 		$this->content = $content;
 	}
+
+	/**
+	 * Setter for the date.
+	 *
+	 * @param string $date The date of the page 
+	**/
+	public function setDate($date)
+	{
+		$this->date = $date;
+	}
 	
 	/**
 	 * Setter for the last modify.
@@ -159,6 +181,7 @@ class Page
 					$this->author		= $row['author'];
 					$this->title		= $row['title'];
 					$this->content		= $row['content'];
+					$this->date			= $row['date'];
 					$this->last_modify	= $row['last_modify'];
 					
 				}

@@ -17,6 +17,7 @@ class Article
 	private $category;
 	private $description;
 	private $content;
+	private $date;
 	private $last_modify;
 	
 	// Constructor
@@ -28,6 +29,7 @@ class Article
 		$this->category		= "";
 		$this->description	= "";
 		$this->content		= "";
+		$this->date			= "";
 		$this->last_modify	= "";
 	}
 	
@@ -94,6 +96,16 @@ class Article
 	public function getContent()
 	{
 		return $this->content;
+	}
+
+	/**
+	 * Getter for the date.
+	 *
+	 * @return string The date of the article 
+	**/
+	public function getDate()
+	{
+		return $this->date;
 	}
 	
 	/**
@@ -165,6 +177,16 @@ class Article
 	{
 		$this->content = $content;
 	}
+
+	/**
+	 * Setter for the date.
+	 *
+	 * @param string $date The date of the article 
+	**/
+	public function setDate($date)
+	{
+		$this->date = $date;
+	}
 	
 	/**
 	 * Setter for the last modify.
@@ -199,13 +221,14 @@ class Article
 		".$tables_prefix."users.displayname AS 'author',
 		".$tables_prefix."articles.description,
 		".$tables_prefix."articles.content,
+		".$tables_prefix."articles.date,
 		".$tables_prefix."articles.last_modify
 
 		FROM ".$tables_prefix."articles LEFT JOIN ".$tables_prefix."users
 		ON ".$tables_prefix."articles.author = ".$tables_prefix."users.ID
 
 		WHERE ".$tables_prefix."articles.deleted=0
-		ORDER BY last_modify DESC;";
+		ORDER BY date DESC;";
 		
 		$result	= $conn->query($sql);
 
@@ -221,6 +244,7 @@ class Article
 					$this->category		= $row['category'];
 					$this->description	= $row['description'];
 					$this->content		= $row['content'];
+					$this->date			= $row['date'];
 					$this->last_modify	= $row['last_modify'];
 					
 				}

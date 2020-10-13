@@ -21,6 +21,7 @@ class User
 	private $birthdate;
 	private $email;
 	private $url;
+	private $date;
 	private $last_modify;
 	
 	// Constructor
@@ -36,6 +37,7 @@ class User
 		$this->birthdate	= "";
 		$this->email		= "";
 		$this->url			= "";
+		$this->date			= "";
 		$this->last_modify	= "";
 	}
 	
@@ -142,6 +144,16 @@ class User
 	public function getUrl()
 	{
 		return $this->url;
+	}
+
+	/**
+	 * Getter for the date.
+	 *
+	 * @return string The date of the user 
+	**/
+	public function getDate()
+	{
+		return $this->date;
 	}
 	
 	/**
@@ -253,6 +265,16 @@ class User
 	{
 		$this->url = $url;
 	}
+
+	/**
+	 * Setter for the date.
+	 *
+	 * @param string $date The date of the user 
+	**/
+	public function setDate($date)
+	{
+		$this->date = $date;
+	}
 	
 	/**
 	 * Setter for the last_modify.
@@ -297,6 +319,7 @@ class User
 					$this->birthdate	= $row['birthdate'];
 					$this->email		= $row['email'];
 					$this->url			= $row['url'];
+					$this->date			= $row['date'];
 					$this->last_modify	= $row['last_modify'];
 					
 				}
@@ -341,6 +364,7 @@ class User
 					$this->birthdate	= $row['birthdate'];
 					$this->email		= $row['email'];
 					$this->url			= $row['url'];
+					$this->date			= $row['date'];
 					$this->last_modify	= $row['last_modify'];
 					
 				}
