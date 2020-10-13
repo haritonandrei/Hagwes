@@ -9,7 +9,7 @@
 **/
 
 $app_name		= "File Hashing";
-$app_version 	= "1.3.0";
+$app_version 	= "1.4.0";
 $app_type		= "Utility";
 $app_author		= "Hariton Andrei Marius";
 $app_license	= "Proprietary/closed";

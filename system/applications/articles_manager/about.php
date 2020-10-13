@@ -9,7 +9,7 @@
 **/
 
 $app_name		= "Articles Manager";
-$app_version 	= "1.4.1";
+$app_version 	= "1.5.1";
 $app_type		= "Essential";
 $app_author		= "Hariton Andrei Marius";
 $app_license	= "Proprietary/closed";

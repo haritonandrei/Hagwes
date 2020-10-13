@@ -20,7 +20,7 @@ if(isset($_GET["dir"])&&!empty($_GET["dir"])) { $root = $_GET["dir"]; }
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Storage explorer</title>
+	<title>Storage Explorer</title>
 	<link rel="stylesheet" type="text/css" href="interface/style.css">
 </head>
 <body>
