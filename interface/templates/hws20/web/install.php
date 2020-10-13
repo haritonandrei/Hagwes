@@ -16,11 +16,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 	
-	<title>Installation needed | <?php echo($website_name); ?></title>
+	<title>Installation Needed | <?php echo($website_name); ?></title>
 
 	<link href="../interface/themes/<?php echo($theme_web); ?>/css/include.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	<link href="../interface/themes/<?php echo($theme_web); ?>/css/theme.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	<link href="../interface/themes/<?php echo($theme_web); ?>/css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+	<!-- ICONS -->
+	<link rel="icon" href="../interface/templates/<?php echo($template_web); ?>/images/logo/logo-32x32.png" sizes="32x32" />
+	<link rel="icon" href="../interface/templates/<?php echo($template_web); ?>/images/logo/logo-192x192.png" sizes="192x192" />
   
 </head>
 <body>	
@@ -29,7 +33,7 @@
 		<section>
 			<a id="logo-container" href="index.php"><?php echo($website_name); ?></a>
 			<ul class="nav-menu">
-				<li><a href="../administration/index.php">Login</a></li>
+				<li><a href="../administration/index.php">Install</a></li>
 			</ul>
 		</section>
 	</nav>
@@ -50,7 +54,7 @@
 			<h5>Tips</h5>
 			<hr>
 			<ol>
-				<li>Before going into "Login" <b>you have to write</b> (from a text-editor) <b>your server's data into "system/ core/ configuration.php"</b>. Because when you click on "Login" the CMS will auto-install the database and the database's tables.</li>
+				<li>Before going into "Install" <b>you have to write</b> (from a text-editor) <b>your server's data into "system/core/configuration.php"</b>. Because when you click on "Install" the CMS will auto-install the database and the database's tables.</li>
 				<li>The <b>default authentication</b> is "<b>administrator</b>" and "<b>password</b>". You must change them as soon as possible.</li>
 				<li>When you insert <b>links, into articles or pages, of files into uploads</b>, I suggest you to <b>insert relative links ( for example "../uploads/folder/file.jpg" )</b>. Because if you move the entire website to another domain, with relative links into articles or pages, you don't have to change all the links.</li>
 				<li>When you are <b>deleting</b> a file or a folder <b>from the uploads</b>, the CMS won't ask you any confirm.</li>

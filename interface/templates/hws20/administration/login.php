@@ -21,6 +21,10 @@
 	<link href="../interface/themes/<?php echo($theme_administration); ?>/css/include.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	<link href="../interface/themes/<?php echo($theme_administration); ?>/css/theme.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	<link href="../interface/themes/<?php echo($theme_administration); ?>/css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+	<!-- ICONS -->
+	<link rel="icon" href="../interface/templates/<?php echo($template_administration); ?>/images/logo/logo-32x32.png" sizes="32x32" />
+	<link rel="icon" href="../interface/templates/<?php echo($template_administration); ?>/images/logo/logo-192x192.png" sizes="192x192" />
   
 </head>
 <body>	
