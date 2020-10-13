@@ -86,7 +86,7 @@ $sql =
 
 $conn->query($sql);
 
-// FIRST USER -----------------------------------------------------------
+// FIRST USERS -----------------------------------------------------------
 
 $sql =
 "INSERT INTO ".$tables_prefix."users (
@@ -99,6 +99,36 @@ $sql =
 	'a1d38a4b08a7b9e4124d3547d38342c545f3f35f1cf7cea228a765c6fa9616ee9384429163656b0b68dbaa9c7f90b6d0c5522b89be5424422d3af59906098f70',
 	'super-user',
 	'Administrator'
+)";
+
+$conn->query($sql);
+
+$sql =
+"INSERT INTO ".$tables_prefix."users (
+	username,
+	password,
+	type,
+	displayname
+) VALUES (
+	'limited',
+	'a1d38a4b08a7b9e4124d3547d38342c545f3f35f1cf7cea228a765c6fa9616ee9384429163656b0b68dbaa9c7f90b6d0c5522b89be5424422d3af59906098f70',
+	'limited-user',
+	'Limited'
+)";
+
+$conn->query($sql);
+
+$sql =
+"INSERT INTO ".$tables_prefix."users (
+	username,
+	password,
+	type,
+	displayname
+) VALUES (
+	'guest',
+	'a1d38a4b08a7b9e4124d3547d38342c545f3f35f1cf7cea228a765c6fa9616ee9384429163656b0b68dbaa9c7f90b6d0c5522b89be5424422d3af59906098f70',
+	'guest-user',
+	'Guest'
 )";
 
 $conn->query($sql);

@@ -64,7 +64,7 @@
 			{
 				echo('
 				<blockquote>
-					<a href="../system/applications/users_manager/registration.php">Register</a>
+					<a href="../system/applications/users_manager/registration.php" class="link">Register</a>
 				</blockquote>
 				');
 			}
