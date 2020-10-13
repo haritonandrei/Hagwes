@@ -50,7 +50,7 @@
 					<th>Title</th>
 					<th class="hidden-on-mobile">Category</th>
 					<th>Author</th>
-					<th class="hidden-on-mobile">Last modify</th>
+					<th class="hidden-on-mobile">Date</th>
 					<th>-</th>
 					<th>-</th>
 				</tr>
@@ -64,7 +64,7 @@
 							<td><a href="../../../web/article.php?id='.$article -> getIdentifier().'">'.$article -> getTitle().'</a></td>
 							<td class="hidden-on-mobile">'.$article -> getCategory().'</td>
 							<td>'.$article -> getAuthor().'</td>
-							<td class="hidden-on-mobile">'.$article -> getLastModify().'</td>
+							<td class="hidden-on-mobile">'.$article -> getDate().'</td>
 							<td><a href="edit.php?id='.$article -> getIdentifier().'" class="link">Edit</a></td>
 							<td><a href="remove.php?id='.$article -> getIdentifier().'" class="link">Remove</a></td>
 						</tr>'

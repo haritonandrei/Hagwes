@@ -48,7 +48,7 @@
 				<tr>
 					<th>ID</th>
 					<th>Title</th>
-					<th class="hidden-on-mobile">Last modify</th>
+					<th class="hidden-on-mobile">Date</th>
 					<th>-</th>
 					<th>-</th>
 				</tr>
@@ -60,7 +60,7 @@
 						'<tr>
 							<td>'.$page -> getIdentifier().'</td>
 							<td><a href="../../../web/page.php?id='.$page -> getIdentifier().'">'.$page -> getTitle().'</a></td>
-							<td class="hidden-on-mobile">'.$page -> getLastModify().'</td>
+							<td class="hidden-on-mobile">'.$page -> getDate().'</td>
 							<td><a href="edit.php?id='.$page -> getIdentifier().'" class="link">Edit</a></td>
 							<td><a href="remove.php?id='.$page -> getIdentifier().'" class="link">Remove</a></td>
 						</tr>'

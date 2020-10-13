@@ -50,7 +50,7 @@
 					<th>User</th>
 					<th class="hidden-on-mobile">Type</th>
 					<th>Email</th>
-					<th class="hidden-on-mobile">Last modify</th>
+					<th class="hidden-on-mobile">Date</th>
 					<th>-</th>
 					<th>-</th>
 				</tr>
@@ -64,7 +64,7 @@
 							<td>'.$user->getUsername().'</td>
 							<td class="hidden-on-mobile">'.$user->getUserType().'</td>
 							<td>'.$user->getEmail().'</td>
-							<td class="hidden-on-mobile">'.$user->getLastModify().'</td>
+							<td class="hidden-on-mobile">'.$user->getDate().'</td>
 							<td><a href="edit.php?id='.$user->getIdentifier().'" class="link">Edit</a></td>
 							<td><a href="remove.php?id='.$user->getIdentifier().'&username='.$user->getUsername().'" class="link">Remove</a></td>
 						</tr>'

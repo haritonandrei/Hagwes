@@ -183,8 +183,9 @@ class Article
 	 *
 	 * @param string $date The date of the article 
 	**/
-	public function setDate($date)
+	public function setDate($datetime)
 	{
+		$date = explode(" ", $datetime)[0];
 		$this->date = $date;
 	}
 	
