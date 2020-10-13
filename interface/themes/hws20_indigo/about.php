@@ -8,7 +8,7 @@
  * @license    Proprietary/closed
 **/
 
-$theme_name		= "HWS20 Blue";
+$theme_name		= "HWS20 Indigo";
 $theme_version 	= "0.1.0";
 $theme_author	= "Hariton Andrei Marius";
 $theme_license	= "Proprietary/closed";

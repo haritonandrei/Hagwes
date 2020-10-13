@@ -47,19 +47,22 @@
 				<h5>Installation needed</h5>
 			</aside>
 
+			<p>
 			This is a simple CMS, that allows you to make any kind of website, easily and very personalizable.
 			In order to get the 100% from this CMS, you have to know a bit of HTML, CSS, and PHP.
-			<br><br>
+			</p>
 
 			<h5>Tips</h5>
 			<hr>
-			<ol>
+			<p>
+			<ul>
 				<li>Before going into "Install" <b>you have to write</b> (from a text-editor) <b>your server's data into "system/core/configuration.php"</b>. Because when you click on "Install" the CMS will auto-install the database and the database's tables.</li>
 				<li>The <b>default authentication</b> is "<b>administrator</b>" and "<b>password</b>". You must change them as soon as possible.</li>
 				<li>When you insert <b>links, into articles or pages, of files into uploads</b>, I suggest you to <b>insert relative links ( for example "../uploads/folder/file.jpg" )</b>. Because if you move the entire website to another domain, with relative links into articles or pages, you don't have to change all the links.</li>
 				<li>When you are <b>deleting</b> a file or a folder <b>from the uploads</b>, the CMS won't ask you any confirm.</li>
 				<li><b>Writing the content of a page/article</b>, to insert the <b>link to another page/article</b>, it's enought to write "page.php?id=N" OR "article.php?id=N", where N is an integer representing the ID of the page/article (example: <b>"page.php?id=1"</b> OR <b>"article.php?id=1"</b> if ID=1).</li>
-			</ol>
+			</ul>
+			</p>
 
 			<!-- CMS INFORMATIONS -->
 			<aside>
