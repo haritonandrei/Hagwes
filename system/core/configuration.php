@@ -10,8 +10,8 @@
 
 // SERVER - DATABASE
 	
-$database_name	= "my_hws_db";
-$tables_prefix	= "it_blog_";
+$database_name	= "hws_db";
+$tables_prefix	= "hws_";
 
 // SERVER - HOST
 
@@ -25,7 +25,7 @@ $template_web				= "hws20";
 $template_administration	= "hws20";
 $template_applications		= "hws20";
 $theme_web					= "hws20_blue";
-$theme_administration		= "hws20_blue";
+$theme_administration		= "hws20_indigo";
 $theme_applications			= "hws20_blue";
 $website_name				= "Hagwes";
 $website_description		= "Lightweight, secure, smart.";
