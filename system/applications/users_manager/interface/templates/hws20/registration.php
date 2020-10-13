@@ -29,7 +29,8 @@
 		<section>
 			<a id="logo-container" href="index.php"><?php echo($website_name); ?></a>
 			<ul class="nav-menu">
-				<li><a href="../../../web/index.php">Web</a></li>
+				<li><a class="menu-icon" href="../../../administration/panel.php"><img src="../../../interface/templates/<?php echo($template_applications); ?>/images/icons/lock.png" title="Administration" /></a></li>
+				<li><a class="menu-icon" href="../../../web/index.php"><img src="../../../interface/templates/<?php echo($template_applications); ?>/images/icons/web.png" title="Web" /></a></li>
 			</ul>
 		</section>
 	</nav>

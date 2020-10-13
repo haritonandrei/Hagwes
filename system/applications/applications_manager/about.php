@@ -9,7 +9,7 @@
 **/
 
 $app_name		= "Applications Manager";
-$app_version 	= "1.2.1";
+$app_version 	= "1.3.1";
 $app_type		= "Essential";
 $app_author		= "Hariton Andrei Marius";
 $app_license	= "Proprietary/closed";

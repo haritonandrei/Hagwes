@@ -46,8 +46,8 @@
 					}
 				}
 				
-				echo('<li><a class="menu-text" href="../administration/index.php">Login</a></li>');
-				echo('<li><a class="menu-text" href="search.php">Search</a></li>');
+				echo('<li><a class="menu-icon" href="../administration/index.php"><img src="../interface/templates/'.$template_web.'/images/icons/login.png" title="Login" /></a></li>');
+				echo('<li><a class="menu-icon" href="search.php"><img src="../interface/templates/'.$template_web.'/images/icons/search.png" title="Search" /></a></li>');
 				
 				?>
 			</ul>
