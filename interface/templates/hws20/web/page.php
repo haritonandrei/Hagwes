@@ -68,8 +68,23 @@
 				<h5><?php echo( $page -> getTitle() ); ?></h5>
 			</aside>
 
-			<?php echo( $page -> getContent() ); ?>
-			<hr>
+			<div class="sides">
+				<div class="side_left">
+					<?php echo( $page -> getContent() ); ?>
+					<hr>
+				</div>
+
+				<div class="side_right">
+					<div class="side_right__content">
+					<?php
+					
+					// SIDEBAR
+					require("../interface/template-parts/web/sidebar.php");
+					
+					?>
+					</div>
+				</div>
+			</div>
 			
 			<div>
 				<?php

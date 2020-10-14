@@ -71,22 +71,37 @@
 				<h5><?php echo( $article -> getTitle() ); ?></h5>
 			</aside>
 			
-			<div class="info">
-				<?php
-				
-				echo(
-					"<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/category.png\" title=\"Category\" /> <a class=\"link\" href=\"category.php?name=".$article->getCategory()."\">".$article -> getCategory()."</a></span>".
-					"<span> &nbsp;<img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/edit.png\" title=\"Author\" /> ".$article -> getAuthor()."</span>".
-					"<span> &nbsp;<img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/sun.png\" title=\"Date\" /> ".date("l jS F Y", strtotime($article -> getLastModify()))."</span>"
-				);
-				
-				?>
-			</div>
+			<div class="sides">
+				<div class="side_left">
+					<div class="info">
+						<?php
+						
+						echo(
+							"<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/category.png\" title=\"Category\" /> <a class=\"link\" href=\"category.php?name=".$article->getCategory()."\">".$article -> getCategory()."</a></span>".
+							"<span> &nbsp;<img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/edit.png\" title=\"Author\" /> ".$article -> getAuthor()."</span>".
+							"<span> &nbsp;<img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/sun.png\" title=\"Date\" /> ".date("l jS F Y", strtotime($article -> getLastModify()))."</span>"
+						);
+						
+						?>
+					</div>
 			
-			<p class="description"><?php echo( $article -> getDescription() ); ?></p>
+					<p class="description"><?php echo( $article -> getDescription() ); ?></p>
 
-			<?php echo( $article -> getContent() ); ?>
-			<hr>
+					<?php echo( $article -> getContent() ); ?>
+					<hr>
+				</div>
+
+				<div class="side_right">
+					<div class="side_right__content">
+					<?php
+					
+					// SIDEBAR
+					require("../interface/template-parts/web/sidebar.php");
+					
+					?>
+					</div>
+				</div>
+			</div>
 			
 			<div>
 				<?php

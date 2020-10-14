@@ -102,10 +102,12 @@
 				{
 					echo(
 						"<h3>".$article->getTitle()."</h3>
-						&#10070; ".$article->getCategory()."&nbsp;
-						&#9998; ".$article->getAuthor()."&nbsp;
-						&#9728; ".date("l jS F Y", strtotime($article -> getLastModify()))."<br>
-						<blockquote>".$article->getDescription()."</blockquote>
+						<div class=\"info\">
+							<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/category.png\" title=\"Category\" /> ".$article->getCategory()."&nbsp;</span>
+							<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/edit.png\" title=\"Author\" /> ".$article->getAuthor()."&nbsp;</span>
+							<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/sun.png\" title=\"Date\" /> ".date("l jS F Y", strtotime($article -> getLastModify()))."</span>
+						</div>
+						<p class=\"description\">".$article->getDescription()."</p>
 						<p class=\"chip\"><a href=\"article.php?id=".$article->getIdentifier()."\">Read more &#10141;</a></p>
 						<hr>"
 					);

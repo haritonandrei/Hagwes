@@ -9,7 +9,7 @@
 **/
 
 $template_name		= "HWS20";
-$template_version	= "0.2.0";
+$template_version	= "0.3.0";
 $template_author	= "Hariton Andrei Marius";
 $template_license	= "Proprietary/closed";
 

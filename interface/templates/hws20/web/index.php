@@ -97,41 +97,41 @@
 
 			<div class="sides">
 				<div class="side_left">
-				<?php
-				
-				if($index_page_enabled == TRUE)
-				{
-					echo($page -> getContent());
-				}
-				else
-				{
-					foreach($articles as $article)
+					<?php
+					
+					if($index_page_enabled == TRUE)
 					{
-						echo(
-							"<h3>".$article->getTitle()."</h3>
-							<div class=\"info\">
-								<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/category.png\" title=\"Category\" /> <a class=\"link\" href=\"category.php?name=".$article->getCategory()."\">".$article->getCategory()."</a>&nbsp;</span>
-								<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/edit.png\" title=\"Author\" /> ".$article->getAuthor()."&nbsp;</span>
-								<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/sun.png\" title=\"Date\" /> ".date("l jS F Y", strtotime($article -> getDate()))."</span>
-							</div>
-							<p class=\"description\">".$article->getDescription()."</p>
-							<p class=\"chip\"><a href=\"article.php?id=".$article->getIdentifier()."\">Read more &#10141;</a></p>
-							<hr>"
-						);
+						echo($page -> getContent());
+					}
+					else
+					{
+						foreach($articles as $article)
+						{
+							echo(
+								"<h3>".$article->getTitle()."</h3>
+								<div class=\"info\">
+									<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/category.png\" title=\"Category\" /> <a class=\"link\" href=\"category.php?name=".$article->getCategory()."\">".$article->getCategory()."</a>&nbsp;</span>
+									<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/edit.png\" title=\"Author\" /> ".$article->getAuthor()."&nbsp;</span>
+									<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/sun.png\" title=\"Date\" /> ".date("l jS F Y", strtotime($article -> getDate()))."</span>
+								</div>
+								<p class=\"description\">".$article->getDescription()."</p>
+								<p class=\"chip\"><a href=\"article.php?id=".$article->getIdentifier()."\">Read more &#10141;</a></p>
+								<hr>"
+							);
+						}
+						
+						if(empty($articles))
+						{
+							echo("<center><h3>No more articles!</h3></center>");
+						}
+						
+						if(!empty($articles))
+						{
+							echo('<center><p class="chip"><a href="index.php?list_start_from='.$next_page_starts_from.'">Next page &#10141;</a></p></center>');
+						}
 					}
 					
-					if(empty($articles))
-					{
-						echo("<center><h3>No more articles!</h3></center>");
-					}
-					
-					if(!empty($articles))
-					{
-						echo('<center><p class="chip"><a href="index.php?list_start_from='.$next_page_starts_from.'">Next page &#10141;</a></p></center>');
-					}
-				}
-				
-				?>
+					?>
 				</div>
 
 				<div class="side_right">
