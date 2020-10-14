@@ -40,6 +40,6 @@ $list_max_size				= 10;		// into a page
 $cookie_expire_seconds		= 1800;		// 86400 - 1 day, 3600 - 1 hour.
 
 // SYSTEM - UPGRADES
-$upgrades_url = "";
+$upgrades_url = "https://www.hagik.net/en/products/hagwes/upgrades.php?version=";
 
 ?>
