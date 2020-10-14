@@ -133,7 +133,7 @@ $sql =
 
 $conn->query($sql);
 
-// EXAMPLE ARTICLE -----------------------------------------------------------
+// EXAMPLE ARTICLES -----------------------------------------------------------
 
 $sql = "INSERT INTO ".$tables_prefix."articles (
 	title,
@@ -145,8 +145,40 @@ $sql = "INSERT INTO ".$tables_prefix."articles (
 	'Article',
 	'Category',
 	'1',
-	'Description',
+	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed dui quis massa fringilla euismod. Ut eget libero turpis.',
 	'Content'
+)";
+
+$conn->query($sql);
+
+$sql = "INSERT INTO ".$tables_prefix."articles (
+	title,
+	category,
+	author,
+	description,
+	content
+) VALUES (
+	'Article 2',
+	'Category',
+	'1',
+	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed dui quis massa fringilla euismod. Ut eget libero turpis.',
+	'Content 2'
+)";
+
+$conn->query($sql);
+
+$sql = "INSERT INTO ".$tables_prefix."articles (
+	title,
+	category,
+	author,
+	description,
+	content
+) VALUES (
+	'Article 3',
+	'Category',
+	'1',
+	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed dui quis massa fringilla euismod. Ut eget libero turpis.',
+	'Content 3'
 )";
 
 $conn->query($sql);
