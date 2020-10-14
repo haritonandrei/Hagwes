@@ -68,6 +68,7 @@
 						<option value="../../../interface/template-parts/web/category-footer.php">Category footer</option>
 						<option value="../../../interface/template-parts/web/search-header.php">Search header</option>
 						<option value="../../../interface/template-parts/web/search-footer.php">Search footer</option>
+						<option value="../../../interface/template-parts/web/sidebar.php">Sidebar</option>
 					</optgroup>
 				</select>
 				<input type="submit" value="Open">

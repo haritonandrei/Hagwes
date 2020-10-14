@@ -1,1 +1,18 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed dui quis massa fringilla euismod. Ut eget libero turpis. Integer eu justo quis massa elementum posuere. In commodo elit quis eros sollicitudin, ac auctor lorem dapibus. Aliquam in purus congue, egestas enim at, tristique tortor. Quisque rhoncus finibus lobortis. Nulla consequat accumsan orci, eu eleifend sapien consectetur a. Curabitur vel vehicula tortor, nec bibendum nulla. Vivamus vel libero efficitur, facilisis nulla ac, rhoncus risus. Morbi ac mi ante.
+<h3>Pages</h3>
+<ul>
+<li><a href="page.php?id=1" class="link">About</a></li>
+<li><a href="page.php?id=2" class="link">Categories</a></li>
+</ul>
+
+<h3>Last Articles</h3>
+<ul>
+<li><a href="article.php?id=3" class="link">Article 3</a></li>
+<li><a href="article.php?id=2" class="link">Article 2</a></li>
+<li><a href="article.php?id=1" class="link">Article 1</a></li>
+</ul>
+
+<h3>Links</h3>
+<ul>
+<li><a href="search.php" class="link">Search</a></li>
+<li><a href="../administration/index.php" class="link">Login</a></li>
+</ul>
