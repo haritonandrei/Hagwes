@@ -108,7 +108,7 @@
 							<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/sun.png\" title=\"Date\" /> ".date("l jS F Y", strtotime($article -> getLastModify()))."</span>
 						</div>
 						<p class=\"description\">".$article->getDescription()."</p>
-						<p class=\"chip\"><a href=\"article.php?id=".$article->getIdentifier()."\">Read more &#10141;</a></p>
+						<p class=\"chip\"><a class=\"link-icon\" href=\"article.php?id=".$article->getIdentifier()."\">Read more <img class=\"link-icon__button\" src=\"../interface/templates/$template_web/images/icons/arrow2_right.png\" title=\"Read more\" /></a></p>
 						<hr>"
 					);
 				}
@@ -120,7 +120,7 @@
 				
 				if(!empty($search_articles))
 				{
-					echo('<center><p class="chip"><a href="search.php?list_start_from='.$next_page_starts_from.'&query='.$_GET['query'].'">Next page &#10141;</a></p></center>');
+					echo('<center><p class="chip"><a class="link-icon" href="search.php?list_start_from='.$next_page_starts_from.'&query='.$_GET['query'].'">Next page <img class="link-icon__button" src="../interface/templates/'.$template_web.'/images/icons/arrow2_right.png" title="Next page" /></a></p></center>');
 				}
 			}
 			else

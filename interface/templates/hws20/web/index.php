@@ -127,7 +127,7 @@
 						
 						if(!empty($articles))
 						{
-							echo('<center><p class="chip"><a href="index.php?list_start_from='.$next_page_starts_from.'">Next page &#10141;</a></p></center>');
+							echo('<center><p class="chip"><a class="link-icon" href="index.php?list_start_from='.$next_page_starts_from.'">Next page <img class="link-icon__button" src="../interface/templates/'.$template_web.'/images/icons/arrow2_right.png" title="Next page" /></a></p></center>');
 						}
 					}
 					
