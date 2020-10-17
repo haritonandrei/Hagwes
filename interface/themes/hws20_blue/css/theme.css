@@ -223,6 +223,20 @@ ul, .list {
 .info img {
 	vertical-align: bottom;
 }
+.link-icon {
+	display: inline-block;
+	position: relative;
+	padding-right: 24px;
+}
+.link-icon__button {
+	width: 21px;
+	height: 21px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 5px;
+}
 
 /* ID */
 #logo-container {
