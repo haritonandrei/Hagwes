@@ -16,7 +16,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 	
-	<title>Denied action | <?php echo($website_name); ?></title>
+	<title>Denied Action | <?php echo($website_name); ?></title>
 
 	<link href="../interface/themes/<?php echo($theme_administration); ?>/css/include.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	<link href="../interface/themes/<?php echo($theme_administration); ?>/css/theme.css" type="text/css" rel="stylesheet" media="screen,projection"/>
