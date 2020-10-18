@@ -9,7 +9,7 @@
 **/
 
 $theme_name		= "HWS20 Blue";
-$theme_version 	= "0.3.0";
+$theme_version 	= "0.4.0";
 $theme_author	= "Hariton Andrei Marius";
 $theme_license	= "Proprietary/closed";
 $theme_template	= "hws20";

@@ -184,23 +184,31 @@ ul, .list {
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .nav-menu {
+	display: inline-block;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #303f9f;
+	vertical-align: bottom;
 }
 .nav-menu li {
-	float: left;
+	display: inline-block;
+	vertical-align: bottom;
 }
 .nav-menu .menu-text,
 .nav-menu .menu-icon {
 	display: block;
 	color: #ffffff;
 	text-align: center;
-	padding: 14px 16px;
 	text-decoration: none;
 	transition: 0.3s background-color;
+}
+.nav-menu .menu-text {
+	padding: 14px 16px;
+}
+.nav-menu .menu-icon {
+	padding: 9px 16px;
 }
 .nav-menu .menu-icon img {
 	width: 24px;
@@ -240,11 +248,11 @@ ul, .list {
 
 /* ID */
 #logo-container {
+	display: inline-block;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 35px;
-	float: left;
-	padding: 3.3px;
+	padding: 4.8px;
 	text-decoration: none;
 	color: #ffffff;
 }
@@ -310,7 +318,7 @@ ul, .list {
 		padding: 15.7px 16px;
 	}
 	#logo-container {
-		padding: 9.8px;
+		padding: 11.5px;
 	}
 	.sides {
 		display: flex;
