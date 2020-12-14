@@ -105,7 +105,7 @@
 						<div class=\"info\">
 							<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/category.png\" title=\"Category\" /> ".$article->getCategory()."&nbsp;</span>
 							<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/edit.png\" title=\"Author\" /> ".$article->getAuthor()."&nbsp;</span>
-							<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/sun.png\" title=\"Date\" /> ".date("l jS F Y", strtotime($article -> getLastModify()))."</span>
+							<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/sun.png\" title=\"Date\" /> ".date("l jS F Y", strtotime($article -> getDate()))."</span>
 						</div>
 						<p class=\"description\">".$article->getDescription()."</p>
 						<p class=\"chip\"><a class=\"link-icon\" href=\"article.php?id=".$article->getIdentifier()."\">Read more <img class=\"link-icon__button\" src=\"../interface/templates/$template_web/images/icons/arrow2_right.png\" title=\"Read more\" /></a></p>

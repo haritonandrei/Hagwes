@@ -72,7 +72,7 @@
 			echo(
 				"&#10070; <a class=\"link\" href=\"category.php?name=".$article->getCategory()."\">".$article -> getCategory()."</a>".
 				" &nbsp;&#9998; ".$article -> getAuthor().
-				" &nbsp;&#9728; ".date("l jS F Y", strtotime($article -> getLastModify()))
+				" &nbsp;&#9728; ".date("l jS F Y", strtotime($article -> getDate()))
 			);
 			
 			?>

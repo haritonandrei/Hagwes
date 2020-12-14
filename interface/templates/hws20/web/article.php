@@ -79,7 +79,7 @@
 						echo(
 							"<span><img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/category.png\" title=\"Category\" /> <a class=\"link\" href=\"category.php?name=".$article->getCategory()."\">".$article -> getCategory()."</a></span>".
 							"<span> &nbsp;<img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/edit.png\" title=\"Author\" /> ".$article -> getAuthor()."</span>".
-							"<span> &nbsp;<img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/sun.png\" title=\"Date\" /> ".date("l jS F Y", strtotime($article -> getLastModify()))."</span>"
+							"<span> &nbsp;<img class=\"icon\" src=\"../interface/templates/$template_web/images/icons/sun.png\" title=\"Date\" /> ".date("l jS F Y", strtotime($article -> getDate()))."</span>"
 						);
 						
 						?>
